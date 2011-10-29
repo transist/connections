@@ -1,0 +1,13 @@
+source 'http://rubygems.org'
+
+gem 'rails', '3.0.10'
+gem 'devise'
+gem 'omniauth'
+gem 'pg'
+gem 'omniauth-weibo', :git => 'git://github.com/ballantyne/omniauth-weibo.git'
+gem 'omniauth-douban', :git => 'git://github.com/ballantyne/omniauth-douban.git'
+gem 'omniauth-tqq', :git => 'git://github.com/ballantyne/omniauth-tqq.git'
+gem 'omniauth-tsohu', :git => 'git://github.com/ballantyne/omniauth-tsohu.git'
+gem 'omniauth-t163', :git => 'git://github.com/ballantyne/omniauth-t163.git'
+gem 'omniauth-kaixin', :git => 'git://github.com/ballantyne/omniauth-kaixin.git'
+gem 'heroku'
