@@ -5,6 +5,7 @@ class AuthenticationsController < ApplicationController
   end
 
   def auth_hash
+    logger.info request.env.inspect
     request.env['omniauth.auth']
   end
 end
