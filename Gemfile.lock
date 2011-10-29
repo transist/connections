@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: git://github.com/ballantyne/omniauth-kaixin.git
-  revision: 4e65b8966b3c1fa187c2cd41171fdbd53b1b7d4a
+  revision: 79ea5581c1b0000a9fe0b63652ebc783c79eed8b
   specs:
     omniauth-kaixin (1.0.0.rc2)
       omniauth (~> 1.0.0.rc2)
