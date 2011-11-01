@@ -1,15 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Followers</title>
-  <%= stylesheet_link_tag :all %>
-  <%= javascript_include_tag :defaults %>
+  <title>connections</title>
+  <%= stylesheet_link_tag 'bootstrap', 'application' %>
+  <%= javascript_include_tag 'backbone', 'application' %>
   <%= csrf_meta_tag %>
+
+  <!-- Le fav and touch icons -->
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 </head>
 <body>
+  <div class="topbar">
+    <div class="fill">
+      <div class="container">
+        <a class="brand" href="#">connections</a>
+        <ul class="nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <form action="" class="pull-right">
+          <input class="input-small" type="text" placeholder="Username">
+          <input class="input-small" type="password" placeholder="Password">
+          <button class="btn" type="submit">Sign in</button>
+        </form>
+      </div>
+    </div>
+  </div>
   <p class="notice"><%= notice %></p>
   <p class="alert"><%= alert %></p>
-<%= yield %>
+  <div class="container">
+
+    <div class="content">
+      <div class="page-header">
+        <h1>connections <small>all your followers are ours</small></h1>
+      </div>
+      <div class="row">
+        <div class="span10">
+          <h2>Accounts</h2>
+          <%= yield %>
+        </div>
+        <div class="span4">
+          <h3>Secondary content</h3>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; transi.st 2011</p>
+    </footer>
+
+  </div> <!-- /container -->
+  
+
+
 
 </body>
 </html>

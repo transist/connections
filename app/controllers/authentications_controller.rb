@@ -1,11 +1,13 @@
 class AuthenticationsController < ApplicationController
   def callback
-    puts auth_hash.inspect
     auth = auth_hash
+    
+    
+    
+    redirect_to root_path
   end
 
   def auth_hash
-    logger.info request.env.inspect
     request.env['omniauth.auth']
   end
 end

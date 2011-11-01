@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/ballantyne/omniauth-douban.git
-  revision: f01dbec1fa9a3880a0ebc53a6ded5293e0dc0feb
+  revision: eaafbc5913ad1555df80ccd876aaa9e13d2463f7
   specs:
     omniauth-douban (1.0.0.rc2)
       multi_json
@@ -8,16 +8,40 @@ GIT
       omniauth-oauth (~> 1.0.0.rc2)
 
 GIT
+  remote: git://github.com/ballantyne/omniauth-jiepang.git
+  revision: d3b0c10dd120abc5c5dfa4eda07c44fd8c74f26a
+  specs:
+    omniauth-jiepang (1.0.0.rc2)
+      omniauth (~> 1.0.0.rc2)
+      omniauth-oauth2 (~> 1.0.0.rc2)
+
+GIT
   remote: git://github.com/ballantyne/omniauth-kaixin.git
-  revision: 79ea5581c1b0000a9fe0b63652ebc783c79eed8b
+  revision: 586bc3ecdc6578d17282f5da2aaf03c71218a90e
   specs:
     omniauth-kaixin (1.0.0.rc2)
       omniauth (~> 1.0.0.rc2)
       omniauth-oauth2 (~> 1.0.0.rc2)
 
 GIT
+  remote: git://github.com/ballantyne/omniauth-plurk.git
+  revision: 4e9e5dc50280d5e26d4e42e5eea43ffb21dd88ff
+  specs:
+    omniauth-plurk (1.0.0.rc2)
+      omniauth (~> 1.0.0.rc2)
+      omniauth-oauth2 (~> 1.0.0.rc2)
+
+GIT
+  remote: git://github.com/ballantyne/omniauth-renren.git
+  revision: 8b844f2d39826966ae0d0fa80b6d7242c20ed66a
+  specs:
+    omniauth-renren (1.0.0.rc2)
+      omniauth (~> 1.0.0.rc2)
+      omniauth-oauth2 (~> 1.0.0.rc2)
+
+GIT
   remote: git://github.com/ballantyne/omniauth-t163.git
-  revision: aeaec76aa23d4fbc31de4f8983744acf0135f9ab
+  revision: 0dcbbb79413b58fe4892c1989297a0ec49d4e0f6
   specs:
     omniauth-t163 (1.0.0.rc2)
       multi_json
@@ -25,14 +49,25 @@ GIT
       omniauth-oauth (~> 1.0.0.rc2)
 
 GIT
+  remote: git://github.com/ballantyne/omniauth-tianji.git
+  revision: 3c83cf6ea28f65742ecdb0cb364bb8440f0ea8ff
+  specs:
+    omniauth-tianji (1.0.0.rc2)
+      omniauth (~> 1.0.0.rc2)
+      omniauth-oauth2 (~> 1.0.0.rc2)
+
+GIT
   remote: git://github.com/ballantyne/omniauth-tqq.git
-  revision: 2e4a393f4b481bf673aed34e677dc310bf5c4f0d
+  revision: 8ef550aa8ccf3bdf625f869c8bab1bd262b13a56
   specs:
     omniauth-tqq (1.0.0.rc2)
+      multi_json
+      omniauth (~> 1.0.0.rc2)
+      omniauth-oauth (~> 1.0.0.rc2)
 
 GIT
   remote: git://github.com/ballantyne/omniauth-tsohu.git
-  revision: 888fc148a5533376bf90c92976b073948962b369
+  revision: 6cb51e473c208c4cf58cd8679570a25784c36d5e
   specs:
     omniauth-tsohu (1.0.0.rc2)
       multi_json
@@ -40,13 +75,38 @@ GIT
       omniauth-oauth (~> 1.0.0.rc2)
 
 GIT
+  remote: git://github.com/ballantyne/omniauth-tudou.git
+  revision: 5b3ec13cc78b42e1a07a1f7f388fe5a6b783cd56
+  specs:
+    omniauth-tudou (1.0.0.rc2)
+      multi_json
+      omniauth (~> 1.0.0.rc2)
+      omniauth-oauth (~> 1.0.0.rc2)
+
+GIT
   remote: git://github.com/ballantyne/omniauth-weibo.git
-  revision: 48f72f464b1c48798ba7aef8069cbcf597be0c11
+  revision: 378e73725194c5792f62d064814f4658426240fe
   specs:
     omniauth-weibo (1.0.0.rc2)
       multi_json
       omniauth (~> 1.0.0.rc2)
       omniauth-oauth (~> 1.0.0.rc2)
+
+GIT
+  remote: git://github.com/intridea/omniauth-contrib.git
+  revision: bb61386c2b1032ff7ccafd8ed7ca3ceafd3c12aa
+  specs:
+    omniauth-contrib (1.0.0.rc2)
+      multi_json
+      omniauth (~> 1.0.0.rc2)
+      omniauth-oauth (~> 1.0.0.rc2)
+
+GIT
+  remote: git://github.com/mkdynamic/omniauth-facebook.git
+  revision: e585e8d9158f3317322c2c29cf6b97bfd414ec85
+  specs:
+    omniauth-facebook (1.0.0.rc1)
+      omniauth-oauth2 (~> 1.0.0.rc2)
 
 GEM
   remote: http://rubygems.org/
@@ -167,11 +227,18 @@ DEPENDENCIES
   devise
   heroku
   omniauth
+  omniauth-contrib!
   omniauth-douban!
+  omniauth-facebook!
+  omniauth-jiepang!
   omniauth-kaixin!
+  omniauth-plurk!
+  omniauth-renren!
   omniauth-t163!
+  omniauth-tianji!
   omniauth-tqq!
   omniauth-tsohu!
+  omniauth-tudou!
   omniauth-weibo!
   pg
   rails (= 3.0.10)

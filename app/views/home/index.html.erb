@@ -1,2 +1,3 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<% Authorization::PROVIDERS.each do |auth| %>
+  <%= link_to auth, '/auth/'+auth %>
+<% end %>
