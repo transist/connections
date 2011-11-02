@@ -1,8 +1,8 @@
 if [[ -d "${rvm_path:-$HOME/.rvm}/environments" \
-  && -s "${rvm_path:-$HOME/.rvm}/environments/ruby-1.9.2-p0@followers" ]] ; then
-  \. "${rvm_path:-$HOME/.rvm}/environments/ruby-1.9.2-p0@followers"
+  && -s "${rvm_path:-$HOME/.rvm}/environments/ruby-1.9.2-p290@connections" ]] ; then
+  \. "${rvm_path:-$HOME/.rvm}/environments/ruby-1.9.2-p290@connections"
 else
-  rvm --create  "ruby-1.9.2-p0@followers"
+  rvm --create  "ruby-1.9.2-p290@connections"
 fi
 
 if ! command -v bundle ; then
